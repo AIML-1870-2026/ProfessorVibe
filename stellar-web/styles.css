@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+canvas {
+  display: block;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.slider-container {
+  margin: 10px 0;
+}
+
+.slider-label {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.slider {
+  width: 200px;
+}
